@@ -14,6 +14,9 @@
 		6690C97D2989D38700DAB628 /* Law_ExpertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6690C97C2989D38700DAB628 /* Law_ExpertTests.swift */; };
 		6690C9872989D38700DAB628 /* Law_ExpertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6690C9862989D38700DAB628 /* Law_ExpertUITests.swift */; };
 		6690C9892989D38700DAB628 /* Law_ExpertUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6690C9882989D38700DAB628 /* Law_ExpertUITestsLaunchTests.swift */; };
+		6690C9992989D3BC00DAB628 /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6690C9982989D3BC00DAB628 /* QuizModel.swift */; };
+		6690C99A2989D3BC00DAB628 /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6690C9982989D3BC00DAB628 /* QuizModel.swift */; };
+		6690C99B2989D3BC00DAB628 /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6690C9982989D3BC00DAB628 /* QuizModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,7 @@
 		6690C9822989D38700DAB628 /* Law ExpertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Law ExpertUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6690C9862989D38700DAB628 /* Law_ExpertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Law_ExpertUITests.swift; sourceTree = "<group>"; };
 		6690C9882989D38700DAB628 /* Law_ExpertUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Law_ExpertUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6690C9982989D3BC00DAB628 /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,9 @@
 		6690C96A2989D38600DAB628 /* Law Expert */ = {
 			isa = PBXGroup;
 			children = (
+				6690C9972989D3A700DAB628 /* UIComponents */,
+				6690C9962989D3A100DAB628 /* Models */,
+				6690C9952989D39B00DAB628 /* ViewModels */,
 				6690C96B2989D38600DAB628 /* Law_ExpertApp.swift */,
 				6690C96D2989D38600DAB628 /* ContentView.swift */,
 				6690C96F2989D38700DAB628 /* Assets.xcassets */,
@@ -125,6 +132,28 @@
 				6690C9882989D38700DAB628 /* Law_ExpertUITestsLaunchTests.swift */,
 			);
 			path = "Law ExpertUITests";
+			sourceTree = "<group>";
+		};
+		6690C9952989D39B00DAB628 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6690C9962989D3A100DAB628 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6690C9982989D3BC00DAB628 /* QuizModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6690C9972989D3A700DAB628 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6690C96E2989D38600DAB628 /* ContentView.swift in Sources */,
+				6690C9992989D3BC00DAB628 /* QuizModel.swift in Sources */,
 				6690C96C2989D38600DAB628 /* Law_ExpertApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6690C99A2989D3BC00DAB628 /* QuizModel.swift in Sources */,
 				6690C97D2989D38700DAB628 /* Law_ExpertTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6690C9872989D38700DAB628 /* Law_ExpertUITests.swift in Sources */,
+				6690C99B2989D3BC00DAB628 /* QuizModel.swift in Sources */,
 				6690C9892989D38700DAB628 /* Law_ExpertUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
